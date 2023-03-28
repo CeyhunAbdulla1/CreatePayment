@@ -1,0 +1,51 @@
+.createExpense {
+    width: 100%;
+    margin-top: 150px;
+    height: 1200px;
+
+    .container {
+        max-width: 1170px;
+        margin: 0 auto;
+
+        .name-expense {
+            width: 580px;
+            height: 520px;
+            margin-left: 24%;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+             rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            form {
+                width: 250px;
+                margin-left: 30%;
+                h1{
+                    font-size: 22px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    margin-left: 21%;
+                }
+                .MuiFormControl-root {
+                    margin-top: 60px;
+                }
+
+                button {
+                    width: 150px;
+                    width: 120px;
+                    margin-left: 27%;
+                    height: 40px;
+                    border: 1px solid green;
+                    border-radius: 15px;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                    background: #2e3131;
+                    color: white;
+                    transition: 0.2s;
+                }
+                button:hover{
+                    background: blue;
+                }
+            }
+        }
+        .table{
+            margin-top: 50px;
+            margin-left: 24%;
+            width: 580px;
+        }
+    }
+}

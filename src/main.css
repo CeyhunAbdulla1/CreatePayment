@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+/* background-color: #C0C0C0	; */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* .MuiInputBase-input {
+  height: 3px !important;
+}
+.MuiInputBase-root {
+  border-radius: 12px !important;
+} */
+
+ .btnSrch {
+  border-radius: 12px !important;
+}
+
+
+input[type="number"],
+input[type="number"]:hover,
+input[type="number"]:focus {
+  appearance: none;
+  -webkit-appearance: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
